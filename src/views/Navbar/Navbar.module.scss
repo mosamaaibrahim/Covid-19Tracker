@@ -1,0 +1,32 @@
+@import '../../styles/commonStyle.scss';
+.navContainer{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.navItemsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.mainIcon{
+    fill: white;
+    height: 45px;
+    position: absolute;
+    top: 30px;
+    animation: rotation 15s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

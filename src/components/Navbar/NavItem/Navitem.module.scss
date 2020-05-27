@@ -1,0 +1,96 @@
+@import '../../../styles/commonStyle.scss';
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 85%;
+    margin-left: 15%;
+    text-decoration: none;
+    color: white;
+    &::after{
+        content: '';
+        display: block;
+        height: 30%;
+        width: 100%;
+        background-color: $mainDarkMov;
+        border-radius: 0px 10px 0px 0px;
+
+    }
+    &::before{
+        content: '';
+        display: block;
+        height: 30%;
+        width: 100%;
+        background-color: $mainDarkMov;
+        border-radius: 0px 0px 10px 0px;
+  
+    }
+    .mainContent{
+        height: 60%;
+        width: 100%;
+        border-radius: 10px 0px 0px 10px;
+        margin-right: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .icon{
+        height: 3vh;
+        fill: white;
+        width: auto;
+    }
+}
+.mainContainerActive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 85%;
+    margin-left: 15%;
+    text-decoration: none;
+    background-color: white;
+    color: $mainDarkMov;
+    &::after{
+        content: '';
+        display: block;
+        height: 30%;
+        width: 100%;
+        background-color: $mainDarkMov;
+        border-radius: 0px 10px 0px 0px;
+
+    }
+    &::before{
+        content: '';
+        display: block;
+        height: 30%;
+        width: 100%;
+        background-color: $mainDarkMov;
+        border-radius: 0px 0px 10px 0px;
+  
+    }
+    .mainContent{
+        height: 60%;
+        width: 100%;
+        background: white;
+        border-radius: 10px 0px 0px 10px;
+        margin-right: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .icon{
+        height: 3vh;
+        fill: $mainDarkMov;
+        width: auto;
+    }
+}
+.title{
+    height: 30%;
+    font-size: 1.5vh;
+
+}

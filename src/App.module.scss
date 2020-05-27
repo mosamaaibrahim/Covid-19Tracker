@@ -1,0 +1,32 @@
+@import './styles/commonStyle.scss';
+
+.App {
+
+      text-align: center;
+    font-family: "Jost-Medium";
+    height: 100vh;
+    background-color: #1A1053;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }

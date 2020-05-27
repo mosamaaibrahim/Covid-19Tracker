@@ -1,0 +1,23 @@
+@import '../../../styles/commonStyle.scss';
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    justify-content: space-around;
+}
+.titleContainer{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.title{
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color:$mainDarkMov
+}

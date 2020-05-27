@@ -1,0 +1,40 @@
+@import '../../../styles/commonStyle.scss';
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid $mainDarkMov;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    &:hover{
+        background-color: cornflowerblue;;
+        cursor: pointer;
+    }
+}
+.mainContainerActive{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid $mainDarkMov;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.flag{
+    height: 23px;
+    border-radius: 20%;
+}
+.title{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.count{
+    font-size: 20px;
+}

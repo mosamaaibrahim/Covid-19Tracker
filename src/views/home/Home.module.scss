@@ -1,0 +1,29 @@
+@import '../../styles/commonStyle.scss';
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-around;
+}
+.dataContainer{
+    background-color: whitesmoke;
+    height: 80%;
+    width: 92%;
+    border-radius: 25px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(18,14,18,0.43);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(18,14,18,0.43);
+    box-shadow: 10px 10px 20px 0px rgba(18,14,18,0.43);
+}
+.titleAndSearch{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin: 5px;
+    align-items: center;
+}

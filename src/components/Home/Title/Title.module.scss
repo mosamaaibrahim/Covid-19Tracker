@@ -1,0 +1,29 @@
+@import '../../../styles/commonStyle.scss';
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+    }
+    h2{
+        font-family: "Jost-Medium";
+        font-size: 36px;
+    }
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+      .logo{
+        animation: rotation 10s infinite linear;
+      }
+}

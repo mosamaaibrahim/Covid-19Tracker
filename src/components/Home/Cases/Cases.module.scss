@@ -1,0 +1,40 @@
+@import '../../../styles/commonStyle.scss';
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    width: 25%;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(18,14,18,0.43);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(18,14,18,0.43);
+    box-shadow: 10px 10px 20px 0px rgba(18,14,18,0.43);
+    .partContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title{
+            font-size: 2vh;
+            font-family: "Jost-Bold";
+            color:$mainDarkMov;
+        }
+        .infoMov{
+            font-size: 3vh;
+            font-family: "Jost-Medium";
+            color:$mainMov;
+        }
+        .infoGreen{
+            font-size: 3vh;
+            font-family: "Jost-Medium";
+            color:$mainGreen;
+        }
+        .infoOrange{
+            font-size: 3vh;
+            font-family: "Jost-Medium";
+            color:$mainOrange;
+        }
+    }
+}
